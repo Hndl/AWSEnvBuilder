@@ -1,0 +1,18 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "s3:GetObject",
+                "s3:GetObjectAttributes"
+            ],
+            "Resource": [
+                "arn:aws:s3:::!!__ORG__!!-!!__PROJECT__!!-!!__ENV__!!-master/temphion/master.csv",
+                "arn:aws:s3:::!!__ORG__!!-!!__PROJECT__!!-!!__ENV__!!-master/meteo/master.csv"
+            ]
+        }
+    ]
+}
+
